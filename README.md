@@ -56,7 +56,7 @@ Available at: https://github.com/alecjacobson/gptoolbox/ (Accessed: 19 August 20
 ### Example spacecraft model:
 Cassini 3D model:
 NASA Visualization Technology Applications and Development (VTAD) (Published: 22 April 2019; Accessed: 19 August 2023).
-Available at: https://solarsystem.nasa.gov/resources/2401/cassini-3d-model/
+Available at: https://solarsystem.nasa.gov/resources/2401/cassini-3d-model/ .
 The use of the model is following NASA Media Usage Guidelines (https://www.nasa.gov/multimedia/guidelines/index.html)
 
 
