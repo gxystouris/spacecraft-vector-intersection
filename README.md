@@ -34,8 +34,9 @@ Python version:
 -----------------
 The Python scripts were created using Spyder IDE. The scripts should run without any problems if are kept in the same folder - otherwise the path should be added in the environment setup as follow:
 
-`import sys
-sys.path.append("C:/Users/Darth_Vader/Location_of_the_file")`
+`import sys`
+
+`sys.path.append("C:/Users/Darth_Vader/Location_of_the_file")`
 
 ### Dependencies
 The model_visualisation.py has options to visualise the model using Matplotlib, PyVista, or Mayavi. The script has been setup in such way that if the user's Python release supports running Python's package installer (pip) from console, the required package (PyVista or Mayavi) will be installed automatically. A message will be display at the console showing a successful or not sucessful installation of the package.
