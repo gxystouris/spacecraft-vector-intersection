@@ -3,7 +3,7 @@ https://solarsystem.nasa.gov/resources/2401/cassini-3d-model/ (Accessed: 19 Augu
 
 Modifications:
 --------------
-The origin of the .obj model origin has been modified to match the origin as was described in Cassini's technical papers (e.g. Matson et al., 2003, doi:10.1023/A:1023609211620): The mag boom is aligned with the +Y-axis, the high-gain antenna (HGA) is aligned with the −Z-axis -- therefore the thrusters are towards the +Z-axis, and the X-axis is completing the orthogonal system.
+The origin of the .obj model origin has been modified to match the origin as was described in Cassini's technical papers (e.g. Matson et al., 2003, doi:10.1023/A:1023609211620): The mag boom is aligned with the +Y-axis, the high-gain antenna (HGA) is aligned with the -Z-axis -- therefore the thrusters are towards the +Z-axis, and the X-axis is completing the orthogonal system.
 
 
 Acknowledgements:

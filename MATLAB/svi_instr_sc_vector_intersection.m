@@ -33,7 +33,10 @@
 % Credits: George Xystouris
 %          Oleg Shebanits
 %          Chris Arridge
-% (this work is submitted for publishing)
+%
+% This is part of the open-access published work "A simple spacecraft - vector 
+% intersection methodology and applications", DOI:10.1093/rasti/rzae012
+% https://academic.oup.com/rasti/article/3/1/166/7634356
 % ------------------------------------
 % v1
 % v1.1 - replaced big part of the script with function "svi_instr_fov"

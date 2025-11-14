@@ -31,7 +31,14 @@ if the 1 unit of the model corresponds to 1 metre, the instrument's x,y,z
 be given in normalised units
 - Unless the spacecraft model is modified, the FOV follows the spacecraft
 coordinates system.
-
+- The Langmuir Probe FOV created with the given Cassini model is slightly 
+different than the FOV presented in the published work. The difference is 
+that using the given model a bit part of the negative elevation will 
+look blocked. This is caused by the existence of the spherical probe: as 
+the origin is moved slightly outside the probe, the script projects all
+the faces, including those of the sphere. For the publication the probe 
+was removed, or, equivalently, we set it to be a point, rather than having 
+physical dimensions, while keeping the boom on which the LP is attached to.
 ------------------------------------
 
 This is part of the open-access published work "A simple spacecraft - vector 
