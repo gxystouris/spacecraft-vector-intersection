@@ -17,7 +17,7 @@ Currently it works only for MATLAB - we are working on translating it to Python.
 
 MATLAB version:
 -----------------
-This code uses solely MATLAB function files (.m extension). The user needs to have MATLAB installed and add the SVI directory and subdirectories to the MATLAB path - no "special" installation needed. Example: let's say the SVI package was downloaded at 'C:\Users\Darth_Vader\MATLAB_packages' then you should include this folder to the MATLAB paths as follows: 
+This code uses solely MATLAB function files (.m extension). The user needs to have MATLAB installed and add the SVI directory and subdirectories to the MATLAB path - no "special" installation needed. Example: let's say the SVI package was downloaded at 'C:\Users\Darth_Vader\MATLAB_packages' then you should include this folder to the MATLAB paths as follow: 
 
 `addpath(genpath('C:\Users\Darth_Vader\MATLAB_packages\Spacecraft_Vector_Intersection\'))`
 
@@ -32,7 +32,13 @@ The user needs to download and install the following packages, containing the re
 
 Python version:
 -----------------
-Coming soon
+The Python scripts were created using Spyder IDE. The scripts should run without any problems if are kept in the same folder - otherwise the path should be added in the environment setup as follow:
+
+`import sys`
+`sys.path.append("C:/Users/Darth_Vader/Location_of_the_file")`
+
+### Dependencies
+The model_visualisation.py has options to visualise the model using Matplotlib, PyVista, or Mayavi. The script has been setup in such way that if the user's Python release supports running Python's package installer (pip) from console, the required package (PyVista or Mayavi) will be installed automatically. A message will be display at the console showing a successful or not sucessful installation of the package.
 
 
 Acknowledgements:
@@ -45,6 +51,12 @@ Available at: https://www.mathworks.com/matlabcentral/fileexchange/22409-stl-fil
 Jacobson et al. (2021) 
 Part of the "gptoolbox: Geometry Processing Toolbox" 
 Available at: https://github.com/alecjacobson/gptoolbox/ (Accessed: 19 August 2023)
+
+### Example spacecraft model:
+Cassini 3D model:
+NASA Visualization Technology Applications and Development (VTAD) (Published: 22 April 2019; Accessed: 19 August 2023).
+Available at: https://solarsystem.nasa.gov/resources/2401/cassini-3d-model/
+The use of the model is following NASA Media Usage Guidelines (https://www.nasa.gov/multimedia/guidelines/index.html)
 
 
 Attribution
