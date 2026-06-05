@@ -43,8 +43,14 @@ end
 % ----------------------------------
 if strcmp(model_path(end-3:end),'.obj')
     [sc_model.v, sc_model.f] = readOBJ(model_path);
-else, strcmp(model_path(end-3:end),'.stl');
-    [sc_model.f, sc_model.v]  = stlread(model_path);
+% Uncomment and use this "else" with a custom stlread function if using earlier versions than R2018b
+%  [sc_model.f, sc_model.v, sc_model.n]  = stlread(model_path);
+% -------------
+% Comment the next four lines if using the custom stlread function
+    sc_model_tr  = stlread(model_path);
+    sc_model.v = sc_model_tr.Points;
+    sc_model.f = sc_model_tr.ConnectivityList;
+    sc_model.n = faceNormal(sc_model_tr);
 end    
 
 
