@@ -28,8 +28,7 @@ The `genpath` adds to the path the folder 'Spacecraft_Vector_Intersection' all i
 The user needs to download and install the following packages, containing the required functions for the script:
 - readOBJ.m: it is part of "gptoolbox: Geometry Processing Toolbox". Available at: https://github.com/alecjacobson/gptoolbox/
 
-*If a MATLAB version earlier than 2018b is used then the stlread.m is required, which can be obtained at "STL File Reader". Available at: https://www.mathworks.com/matlabcentral/fileexchange/22409-stl-file-reader
-* If a later version is used the stlread is part of the MATLAB package.
+If a MATLAB version earlier than 2018b is used then the stlread.m is required, which can be obtained at "STL File Reader". Available at: https://www.mathworks.com/matlabcentral/fileexchange/22409-stl-file-reader. (In the later versions stlread function is part of the MATLAB package.)
 
 Python version:
 -----------------
