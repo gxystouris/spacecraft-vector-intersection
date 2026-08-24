@@ -1,4 +1,5 @@
 # Spacecraft-Vector Intersection (SVI) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12802053.svg)](https://doi.org/10.5281/zenodo.12802053)
+> **Platform note:** Tested on Windows only. macOS/Linux users — feedback welcome! (see Compatibility below).
 
 This is a package that can take any spacecraft 3D model in .stl or .obj and:
 1) calculate the field-of-view of an instrument
@@ -41,6 +42,11 @@ The Python scripts were created using Spyder IDE. The scripts should run without
 ### Dependencies
 The model_visualisation.py has options to visualise the model using Matplotlib, PyVista, or Mayavi. The script has been setup in such way that if the user's Python release supports running Python's package installer (pip) from console, the required package (PyVista or Mayavi) will be installed automatically. A message will be display at the console showing a successful or not sucessful installation of the package.
 
+Compatibility:
+------------------------
+Tested on Windows. Not yet tested on macOS or Linux — if you try it on either 
+and run into issues (or if it works fine!), please [open an issue](link) or 
+contact me - info below.
 
 Acknowledgements:
 ------------------------
